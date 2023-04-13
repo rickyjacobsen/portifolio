@@ -34,11 +34,21 @@ header{
 
 }
 
+a{
+      
+    text-decoration: none;
+    color: var(--preto);
+}
+
+
 h1{
+    
+    display: inline-block;
     text-align: center;
     padding-top: 10px;
     color: var(--branco);
     font-style: italic;
+    
     
 }
 
