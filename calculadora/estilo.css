@@ -64,13 +64,43 @@ section{
     background-color: var(--azul);
     margin: auto;
     box-shadow: 3px 3px 5px rgba(3, 3, 3, 0.400);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
-    
+}
+
+aside{
+    border-top: 2px solid rgba(0, 0, 0, 0.555);
+    border-left: 2px solid rgba(0, 0, 0, 0.555);
+    border-right: 2px solid rgba(0, 0, 0, 0.555);
+    width: 240px;
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+input{
+    width: 235px;
+    height: 47px;
+    text-align: end;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 5px 5px 0px 0px;
+}
+
+nav{
+    border: 2px solid rgba(0, 0, 0, 0.555);
+    width: 240px;
+    height: 300px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 
 main{
     display: flex;
+    
+    
 }
 
 div{
@@ -79,6 +109,7 @@ div{
     justify-content: center;
     font-size: 1.5em;
     font-weight: bold;
+    margin: 5px;
 }
 
 .botao{
@@ -86,34 +117,23 @@ div{
     height: 50px;
     border-radius: 50%;
     background-color: var(--azulEscuro);
+
 }
 
-.dupla{
-    width: 50px;
+div.dupla{
+    width: 100px;
     height: 50px;
-    background-color: var(--azulEscuro);
+    background-color: var(--branco);
+    border-radius: 30px;   
 }
 
-#limpar1{
-    border-radius: 50% 0% 0% 50%;
-    justify-content: end;
+#limpar{
+    margin-right: 15px;
 }
 
-#limpar2{
-    border-radius: 0% 50% 50% 0%;
-    justify-content: left;
+#igual{
+    margin-left: 15px;
 }
-
-#igual1{
-    border-radius: 50% 0% 0% 50%;
-    justify-content: end;
-}
-
-#igual2{
-    border-radius: 0% 50% 50% 0%;
-    justify-content: left;
-}
-
 
 footer{
     max-width: 1200px;

@@ -14,21 +14,24 @@
 
     <header>
         
-        <a href="./index.html"><span class="material-symbols-outlined"> home </span></a>
+        <a href="../index.html"><span class="material-symbols-outlined"> home </span></a>
         
         <h1>Ricky Jacobsen</h1>
     </header>
 
         <section>
 
-            <input type="number" name="visor" id="visor">
+            <aside>
+
+            <input type="text" inputmode="numeric" name="visor" id="visor">
+
+            </aside>
 
             <nav>
 
                 <main>
-                    <div class="dupla" id="limpar1" onclick="limpar">A</div>
-                    <div class="dupla" id="limpar2" onclick="limpar">C</div>
-                    <div class="botao" id="voltar" onclick="voltar">V</div>
+                    <div class="dupla" id="limpar" onclick="limpar">AC</div>
+                    <div class="botao" id="voltar" onclick="apagar">A</div>
                     <div class="botao" id="dividir" onclick="dividir">/</div>
                 </main>
 
@@ -56,8 +59,7 @@
                 <main>
                     <div class="botao" id="zero" onclick="zero">0</div>
                     <div class="botao" id="virgula" onclick="virgula">,</div>
-                    <div class="dupla" id="igual1" onclick="igual">=</div>
-                    <div class="dupla" id="igual2" onclick="igual">=</div>
+                    <div class="dupla" id="igual" onclick="igual">=</div>
                 </main>
 
             </nav>
