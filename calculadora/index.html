@@ -21,6 +21,8 @@
 
         <section>
 
+            <p>Calculadora Raiz</p>
+
             <aside>
 
             <input type="text" inputmode="numeric" name="visor" id="visor">
@@ -30,44 +32,48 @@
             <nav>
 
                 <main>
-                    <div class="dupla" id="limpar" onclick="limpar">AC</div>
-                    <div class="botao" id="voltar" onclick="apagar">A</div>
-                    <div class="botao" id="dividir" onclick="dividir">/</div>
+                    <div class="dupla" id="limpar" onclick="limpar()">AC</div>
+                    <div class="botao" id="voltar" onclick="apagar()">A</div>
+                    <div class="botao" id="dividir" onclick="dividir()">/</div>
                 </main>
 
                 <main>
-                    <div class="botao" id="sete" onclick="sete">7</div>
-                    <div class="botao" id="oito" onclick="oito">8</div>
-                    <div class="botao" id="nove" onclick="nove">9</div>
-                    <div class="botao" id="vezes" onclick="vezes">X</div>
+                    <div class="botao" id="sete" onclick="sete()">7</div>
+                    <div class="botao" id="oito" onclick="oito()">8</div>
+                    <div class="botao" id="nove" onclick="nove()">9</div>
+                    <div class="botao" id="vezes" onclick="vezes()">X</div>
                 </main>
 
                 <main>
-                    <div class="botao" id="quatro" onclick="quatro">4</div>
-                    <div class="botao" id="cinco" onclick="cinco">5</div>
-                    <div class="botao" id="seis" onclick="seis">6</div>
-                    <div class="botao" id="menos" onclick="menos">-</div>
+                    <div class="botao" id="quatro" onclick="quatro()">4</div>
+                    <div class="botao" id="cinco" onclick="cinco()">5</div>
+                    <div class="botao" id="seis" onclick="seis()">6</div>
+                    <div class="botao" id="menos" onclick="menos()">-</div>
                 </main>
 
                 <main>
-                    <div class="botao" id="um" onclick="um">1</div>
-                    <div class="botao" id="dois" onclick="dois">2</div>
-                    <div class="botao" id="tres" onclick="tres">3</div>
-                    <div class="botao" id="mais" onclick="mais">+</div>
+                    <div class="botao" id="um" onclick="um()">1</div>
+                    <div class="botao" id="dois" onclick="dois()">2</div>
+                    <div class="botao" id="tres" onclick="tres()">3</div>
+                    <div class="botao" id="mais" onclick="mais()">+</div>
                 </main>
 
                 <main>
-                    <div class="botao" id="zero" onclick="zero">0</div>
-                    <div class="botao" id="virgula" onclick="virgula">,</div>
-                    <div class="dupla" id="igual" onclick="igual">=</div>
+                    <div class="botao" id="zero" onclick="zero()">0</div>
+                    <div class="botao" id="virgula" onclick="virgula()">,</div>
+                    <div class="dupla" id="igual" onclick="igual()">=</div>
                 </main>
 
             </nav>
 
         </section>
 
+        <script src="RPJ.js"></script>
+
     <footer>
-        <p id="rodape">Ricky Pedroso Jacobsen</p>
+        
+        <a id="rodape" href="mailto:rickyjacobsen@gmail.com">Ricky Pedroso Jacobsen</a> 
+        
     </footer>
 
 </body>

@@ -70,6 +70,10 @@ section{
     justify-content: center;
     
 }
+p{
+    font-style: italic;
+    font-size: 1.5em;
+}
 
 aside{
     border-top: 2px solid rgba(0, 0, 0, 0.555);
@@ -78,6 +82,7 @@ aside{
     width: 240px;
     height: 50px;
     border-radius: 10px 10px 0px 0px;
+    box-shadow: 3px 3px 5px rgba(3, 3, 3, 0.400);
 
 }
 input{
@@ -87,6 +92,7 @@ input{
     font-size: 1.5em;
     font-weight: bold;
     border-radius: 5px 5px 0px 0px;
+    background-color: var(--branco);
 }
 
 nav{
@@ -94,8 +100,8 @@ nav{
     width: 240px;
     height: 300px;
     border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 5px rgba(3, 3, 3, 0.400);
 }
-
 
 main{
     display: flex;
@@ -149,5 +155,6 @@ footer{
 
 #rodape{
     padding-right: 10px;
+    color: var(--branco);
     
 }
