@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricky Jacobsen</title>
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+</head>
+<body>
+
+    <header>
+        
+        <a href="../index.html"><span class="material-symbols-outlined"> home </span></a>
+        
+        <h1>Ricky Jacobsen</h1>
+    </header>
+
+        <section>
+
+            <p>Calculadora Raiz</p>
+
+            <aside>
+
+            <input type="text" inputmode="numeric" name="visor" id="visor">
+
+            </aside>
+
+            <nav>
+
+                <main>
+                    <div class="dupla" id="limpar" onclick="limpar()">AC</div>
+                    <div class="botao" id="voltar" onclick="apagar()">A</div>
+                    <div class="botao" id="dividir" onclick="dividir()">/</div>
+                </main>
+
+                <main>
+                    <div class="botao" id="sete" onclick="sete()">7</div>
+                    <div class="botao" id="oito" onclick="oito()">8</div>
+                    <div class="botao" id="nove" onclick="nove()">9</div>
+                    <div class="botao" id="vezes" onclick="vezes()">X</div>
+                </main>
+
+                <main>
+                    <div class="botao" id="quatro" onclick="quatro()">4</div>
+                    <div class="botao" id="cinco" onclick="cinco()">5</div>
+                    <div class="botao" id="seis" onclick="seis()">6</div>
+                    <div class="botao" id="menos" onclick="menos()">-</div>
+                </main>
+
+                <main>
+                    <div class="botao" id="um" onclick="um()">1</div>
+                    <div class="botao" id="dois" onclick="dois()">2</div>
+                    <div class="botao" id="tres" onclick="tres()">3</div>
+                    <div class="botao" id="mais" onclick="mais()">+</div>
+                </main>
+
+                <main>
+                    <div class="botao" id="zero" onclick="zero()">0</div>
+                    <div class="botao" id="virgula" onclick="virgula()">,</div>
+                    <div class="dupla" id="igual" onclick="igual()">=</div>
+                </main>
+
+            </nav>
+
+        </section>
+
+        <script src="RPJ.js"></script>
+
+    <footer>
+        
+        <a id="rodape" href="mailto:rickyjacobsen@gmail.com">Ricky Pedroso Jacobsen</a> 
+        
+    </footer>
+
+</body>
+</html>
