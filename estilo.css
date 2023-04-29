@@ -86,6 +86,20 @@ section{
     
 }
 
+#calculadora-nutella{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(calculadora-nutella/calculadora-nutella.jpg);
+    background-size: cover;
+    /* background-color: var(--azulEsverdeado); */
+
+    /* abaixo centralizando a caixa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #calculadora:hover{
     
     background-color: var(--azulEscuro);
@@ -98,6 +112,17 @@ section{
     
 }
 
+#calculadora-nutella:hover{
+    
+    background-color: var(--azulEscuro);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: center;
+    
+}
 
 footer{
     max-width: 1200px;

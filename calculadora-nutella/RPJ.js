@@ -11,29 +11,16 @@ function limpar(){
 }
 
 function apagar(){
-    var visor = vi.value
+    /* var visor = vi.value
     var visor = visor.substring(0, visor.length -1)
-    vi.value = visor
+    vi.value = visor */
+
+    vi.value = lista
     
 }
 
 function dividir(){
-    
-    lista.push(Number(vi.value))
-    lista.push('/')
-    
-    if (lista.length > 2){
-
-        var total = lista[0] / lista [3]
-        vi.value = total
-        lista.length = 0
-        vi.focus()
-    }
-    else{
-        vi.value = ''
-        lista.push(Number(vi.value)) 
-        vi.focus()
-    }
+    lista.push( vi.value)
 
 }
 

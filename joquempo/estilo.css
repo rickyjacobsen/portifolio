@@ -65,9 +65,93 @@ section{
     margin: auto;
     box-shadow: 3px 3px 5px rgba(3, 3, 3, 0.400);
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav{
+    background-color: var(--azulEsverdeado);
+    max-width: 1180px;
+    width: 85vw;
+    height: 470px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+
+}
+
+main{
+    width: 88vw;
+    height: 468px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#jogador{
+    border-radius: 10px 0px 0px 10px;
+    border-right: 0px;
+    width: 50%;
+}
+
+#resultado{
+    flex-direction: row;
     
 
 }
+
+#pc{
+    border-radius: 0px 10px 10px 0px;
+    border-left: 0px;
+    width: 50%;
+}
+
+
+
+div{
+    margin: 10px 0px 10px 0px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+
+#jresultado{
+    margin-right: 10px;
+}
+
+
+.pedra{
+    background-image: url(pedra.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.papel{
+    background-image: url(papel.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.tesoura{
+    background-image: url(tesoura.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
 
 footer{
     max-width: 1200px;
