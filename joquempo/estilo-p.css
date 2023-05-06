@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen  and (max-width: 500px) {
+@media screen  and (max-width: 400px) {
 
     #pc{
         display: none;      
@@ -8,5 +8,25 @@
     
     #resultado{
         border-radius: 0px 10px 10px 0px;
+    }
+    div{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+@media screen  and (min-width: 400px) and  (max-width: 500px){
+
+    #pc{
+        display: none;      
+    }
+    
+    #resultado{
+        border-radius: 0px 10px 10px 0px;
+    }
+    div{
+        width: 90px;
+        height: 90px;
     }
 }
