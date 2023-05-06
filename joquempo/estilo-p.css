@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@media screen  and (max-width: 500px) {
+
+    #pc{
+        display: none;      
+    }
+    
+    #resultado{
+        border-radius: 0px 10px 10px 0px;
+    }
+}

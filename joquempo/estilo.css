@@ -99,17 +99,13 @@ main{
     width: 50%;
 }
 
-#resultado{
-    flex-direction: row;
-    
-
-}
 
 #pc{
     border-radius: 0px 10px 10px 0px;
     border-left: 0px;
     width: 50%;
 }
+
 
 
 
@@ -123,9 +119,6 @@ div{
     
 }
 
-#jresultado{
-    margin-right: 10px;
-}
 
 
 .pedra{
@@ -152,6 +145,61 @@ div{
     
 }
 
+#resultado{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: 39%;
+}
+
+#j{
+    align-self: flex-end;
+    justify-self: center;
+}
+
+#p{
+    align-self: flex-end;
+    justify-self: center;
+}
+
+#jresultado{
+    align-self: flex-start;
+    justify-self: center;
+    
+    
+    
+}
+
+#presultado{
+    align-self: flex-start;
+    justify-self: center;
+    
+
+}
+
+article{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-self: end;
+}
+
+#jplacar{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 15px;
+    
+}
+
+#pplacar{
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    
+}
 
 footer{
     max-width: 1200px;
