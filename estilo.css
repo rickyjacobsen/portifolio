@@ -71,6 +71,20 @@ section{
 
 }
 
+#joquempo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url(joquempo/joquempo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+
 #calculadora{
     width: 100px;
     height: 100px;
@@ -98,6 +112,17 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#joquempo:hover{
+    
+    background-color: var(--azulEscuro);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: center;
+    
 }
 
 #calculadora:hover{

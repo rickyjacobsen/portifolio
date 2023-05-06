@@ -26,13 +26,13 @@
 
             <main id="jogador">
                 <p>Jogador</p>
-                <div id="jpedra" class="pedra">
+                <div id="jpedra" class="pedra" onclick="pedra()">
 
                 </div>
-                <div id="jpapel" class="papel">
+                <div id="jpapel" class="papel" onclick="papel()">
 
                 </div>
-                <div id="jtesoura" class="tesoura">
+                <div id="jtesoura" class="tesoura" onclick="tesoura()">
 
                 </div>
             </main>
@@ -47,10 +47,13 @@
                 <div id="presultado"></div>
 
                 <article id="placar">
-                    <p>jogador</p>
-                    
+                    <p>jogador</p>   
+                    <p>empate</p>  
+                    <p>PC</p>              
                     <div id="jplacar"></div>
-                    <p>PC</p>
+                    
+                    <div id="empate"></div>
+                    
                     <div id="pplacar"></div>
                 </article>
 
@@ -60,7 +63,7 @@
             <main id="pc">
 
                 <p>PC</p>
-                <div class="pedra">
+                <div class="pedra" onclick="apostapc()">
 
                 </div>
                 <div class="papel">
