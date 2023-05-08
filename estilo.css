@@ -61,7 +61,7 @@ section{
     max-width: 1200px;
     width: 92vw;
    /*  height: 500px; */
-    height: 88vh;
+    height: 80vh;
     background-color: var(--azul);
     margin: auto;
     box-shadow: 3px 3px 5px rgba(3, 3, 3, 0.400);
