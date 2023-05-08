@@ -6,12 +6,22 @@
         display: none;      
     }
     
-    #resultado{
+    #jogador{
         border-radius: 0px 10px 10px 0px;
+        border: 1px solid black;
+    }
+    #resultado{
+        border-radius: 10px 0px 0px 10px;
+        border-right: 0px;
     }
     div{
         width: 80px;
         height: 80px;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row-reverse;
     }
 }
 
@@ -21,12 +31,23 @@
     #pc{
         display: none;      
     }
-    
-    #resultado{
+
+    #jogador{
         border-radius: 0px 10px 10px 0px;
+        border: 1px solid black;
+    }
+    #resultado{
+        border-radius: 10px 0px 0px 10px;
+        border-right: 0px;
     }
     div{
         width: 90px;
         height: 90px;
     }
+    nav{
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+
 }
