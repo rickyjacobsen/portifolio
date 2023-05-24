@@ -69,9 +69,50 @@ function ganhou(){
         b222.style.backgroundColor = 'white'
         c111.style.backgroundColor = 'white'
     }
+
     
-    
-    
+    if(a11 == 2 && a22 == 2 && a33 == 2){
+        a111.style.backgroundColor = 'white'
+        a222.style.backgroundColor = 'white'
+        a333.style.backgroundColor = 'white'
+    }
+    if(b11 == 2 && b22 == 2 && b33 == 2){
+        b111.style.backgroundColor = 'white'
+        b222.style.backgroundColor = 'white'
+        b333.style.backgroundColor = 'white'
+    }
+    if(c11 == 2 && c22 == 2 && c33 == 2){
+        c111.style.backgroundColor = 'white'
+        c222.style.backgroundColor = 'white'
+        c333.style.backgroundColor = 'white'
+    }
+    if(a11 == 2 && b11 == 2 && c11 == 2){
+        a111.style.backgroundColor = 'white'
+        b111.style.backgroundColor = 'white'
+        c111.style.backgroundColor = 'white'
+    }
+    if(a22 == 2 && b22 == 2 && c22 == 2){
+        a222.style.backgroundColor = 'white'
+        b222.style.backgroundColor = 'white'
+        c222.style.backgroundColor = 'white'
+    }
+    if(a33 == 2 && b33 == 2 && c33 == 2){
+        a333.style.backgroundColor = 'white'
+        b333.style.backgroundColor = 'white'
+        c333.style.backgroundColor = 'white'
+    }
+    if(a11 == 2 && b22 == 2 && c33 == 2){
+        a111.style.backgroundColor = 'white'
+        b222.style.backgroundColor = 'white'
+        c333.style.backgroundColor = 'white'
+    }
+    if(a33 == 2 && b22 == 2 && c11 == 2){
+        a333.style.backgroundColor = 'white'
+        b222.style.backgroundColor = 'white'
+        c111.style.backgroundColor = 'white'
+    }
+
+
     
 }
 
