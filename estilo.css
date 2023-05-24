@@ -101,11 +101,11 @@ section{
     
 }
 
-#calculadora-nutella{
+#jogovelha{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-image: url(calculadora-nutella/calculadora-nutella.jpg);
+    background-image: url(jogovelha/jogovelha.png);
     background-size: cover;
     /* background-color: var(--azulEsverdeado); */
 
@@ -138,7 +138,7 @@ section{
     
 }
 
-#calculadora-nutella:hover{
+#jogovelha:hover{
     
     background-color: var(--azulEscuro);
     width: 150px;
