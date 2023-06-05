@@ -57,6 +57,8 @@ h1{
     
 }
 
+
+
 section{
     max-width: 1200px;
     width: 92vw;
@@ -65,11 +67,27 @@ section{
     background-color: var(--azul);
     margin: auto;
     box-shadow: 3px 3px 5px rgba(3, 3, 3, 0.400);
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
+    
 
+}
+
+#novoJogo{
+    border: 3px solid rgba(0, 0, 0, 0.39);
+    border-radius: 10px;
+    background-color: var(--azulEscuro);
+    color: var(--branco);
+    padding: 8px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.400);
+    
 }
 
 main{
@@ -122,6 +140,45 @@ div{
 
 #c3{
     border-top: 5px solid black;
+}
+
+#placar{
+    height: 50px;
+    background-color: var(--azulEscuro);
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.39);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.400);
+    display: flex;
+    align-items: center;
+    
+    
+}
+aside{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    color: var(--branco);
+    font-size: 1.2em;
+    font-weight: bold;
+    
+    
+    
+}
+#bolinha{
+    background-image: url(bolinha.png);
+    
+}
+#xis{
+    background-image: url(xis.png);
+}
+#resB{
+    width: 100px;
+}
+
+.res{
+    font-size: 2em;
+    padding-left: 10px;
 }
 
 footer{

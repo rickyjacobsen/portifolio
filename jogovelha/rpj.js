@@ -10,6 +10,8 @@ let c111 = document.getElementById('c1')
 let c222 = document.getElementById('c2')
 let c333 = document.getElementById('c3')
 
+let resB = document.getElementById('resB')
+let resX = document.getElementById('resX')
 /* identificar se já foi marcado e se três na mesma posição 
 
 1 bolinha
@@ -26,6 +28,54 @@ let c11 = 0
 let c22 = 0
 let c33 = 0
 
+let totalB = 0
+let totalX = 0
+
+
+/* vai mostrar o placar */
+
+resB.innerHTML = totalB
+resX.innerHTML = totalX
+
+/* função novo jogo */
+
+function novoJogo(){
+    cont = 0
+    a11 = 0
+    a22 = 0
+    a33 = 0
+    b11 = 0
+    b22 = 0
+    b33 = 0
+    c11 = 0
+    c22 = 0
+    c33 = 0
+
+    a111.style.backgroundImage =''
+    a222.style.backgroundImage =''
+    a333.style.backgroundImage =''
+    b111.style.backgroundImage =''
+    b222.style.backgroundImage =''
+    b333.style.backgroundImage =''
+    c111.style.backgroundImage =''
+    c222.style.backgroundImage =''
+    c333.style.backgroundImage =''
+
+    a111.style.backgroundColor = '#A9D9D0'
+    a222.style.backgroundColor = '#A9D9D0'
+    a333.style.backgroundColor = '#A9D9D0'
+    b111.style.backgroundColor = '#A9D9D0'
+    b222.style.backgroundColor = '#A9D9D0'
+    b333.style.backgroundColor = '#A9D9D0'
+    c111.style.backgroundColor = '#A9D9D0'
+    c222.style.backgroundColor = '#A9D9D0'
+    c333.style.backgroundColor = '#A9D9D0'
+
+
+}
+
+
+
 /* função de cada quadrado */
 
 function ganhou(){
@@ -33,41 +83,81 @@ function ganhou(){
         a111.style.backgroundColor = 'white'
         a222.style.backgroundColor = 'white'
         a333.style.backgroundColor = 'white'
+        
+        totalB++
+        resB.innerHTML = totalB
+
+        setTimeout(novoJogo, 2000);
     }
     if(b11 == 1 && b22 == 1 && b33 == 1){
         b111.style.backgroundColor = 'white'
         b222.style.backgroundColor = 'white'
         b333.style.backgroundColor = 'white'
+
+        totalB++
+        resB.innerHTML = totalB
+
+        setTimeout(novoJogo, 2000);
     }
     if(c11 == 1 && c22 == 1 && c33 == 1){
         c111.style.backgroundColor = 'white'
         c222.style.backgroundColor = 'white'
         c333.style.backgroundColor = 'white'
+
+        totalB++
+        resB.innerHTML = totalB
+
+        setTimeout(novoJogo, 2000);
     }
     if(a11 == 1 && b11 == 1 && c11 == 1){
         a111.style.backgroundColor = 'white'
         b111.style.backgroundColor = 'white'
         c111.style.backgroundColor = 'white'
+
+        totalB++
+        resB.innerHTML = totalB
+
+        setTimeout(novoJogo, 2000);
     }
     if(a22 == 1 && b22 == 1 && c22 == 1){
         a222.style.backgroundColor = 'white'
         b222.style.backgroundColor = 'white'
         c222.style.backgroundColor = 'white'
+
+        totalB++
+        resB.innerHTML = totalB
+
+        setTimeout(novoJogo, 2000);
     }
     if(a33 == 1 && b33 == 1 && c33 == 1){
         a333.style.backgroundColor = 'white'
         b333.style.backgroundColor = 'white'
         c333.style.backgroundColor = 'white'
+
+        totalB++
+        resB.innerHTML = totalB
+
+        setTimeout(novoJogo, 2000);
     }
     if(a11 == 1 && b22 == 1 && c33 == 1){
         a111.style.backgroundColor = 'white'
         b222.style.backgroundColor = 'white'
         c333.style.backgroundColor = 'white'
+
+        totalB++
+        resB.innerHTML = totalB
+
+        setTimeout(novoJogo, 2000);
     }
     if(a33 == 1 && b22 == 1 && c11 == 1){
         a333.style.backgroundColor = 'white'
         b222.style.backgroundColor = 'white'
         c111.style.backgroundColor = 'white'
+
+        totalB++
+        resB.innerHTML = totalB
+
+        setTimeout(novoJogo, 2000);
     }
 
     
@@ -75,41 +165,81 @@ function ganhou(){
         a111.style.backgroundColor = 'white'
         a222.style.backgroundColor = 'white'
         a333.style.backgroundColor = 'white'
+
+        totalX++
+        resX.innerHTML = totalX
+
+        setTimeout(novoJogo, 2000);
     }
     if(b11 == 2 && b22 == 2 && b33 == 2){
         b111.style.backgroundColor = 'white'
         b222.style.backgroundColor = 'white'
         b333.style.backgroundColor = 'white'
+
+        totalX++
+        resX.innerHTML = totalX
+
+        setTimeout(novoJogo, 2000);
     }
     if(c11 == 2 && c22 == 2 && c33 == 2){
         c111.style.backgroundColor = 'white'
         c222.style.backgroundColor = 'white'
         c333.style.backgroundColor = 'white'
+
+        totalX++
+        resX.innerHTML = totalX
+
+        setTimeout(novoJogo, 2000);
     }
     if(a11 == 2 && b11 == 2 && c11 == 2){
         a111.style.backgroundColor = 'white'
         b111.style.backgroundColor = 'white'
         c111.style.backgroundColor = 'white'
+
+        totalX++
+        resX.innerHTML = totalX
+
+        setTimeout(novoJogo, 2000);
     }
     if(a22 == 2 && b22 == 2 && c22 == 2){
         a222.style.backgroundColor = 'white'
         b222.style.backgroundColor = 'white'
         c222.style.backgroundColor = 'white'
+
+        totalX++
+        resX.innerHTML = totalX
+
+        setTimeout(novoJogo, 2000);
     }
     if(a33 == 2 && b33 == 2 && c33 == 2){
         a333.style.backgroundColor = 'white'
         b333.style.backgroundColor = 'white'
         c333.style.backgroundColor = 'white'
+
+        totalX++
+        resX.innerHTML = totalX
+
+        setTimeout(novoJogo, 2000);
     }
     if(a11 == 2 && b22 == 2 && c33 == 2){
         a111.style.backgroundColor = 'white'
         b222.style.backgroundColor = 'white'
         c333.style.backgroundColor = 'white'
+
+        totalX++
+        resX.innerHTML = totalX
+
+        setTimeout(novoJogo, 2000);
     }
     if(a33 == 2 && b22 == 2 && c11 == 2){
         a333.style.backgroundColor = 'white'
         b222.style.backgroundColor = 'white'
         c111.style.backgroundColor = 'white'
+
+        totalX++
+        resX.innerHTML = totalX
+
+        setTimeout(novoJogo, 2000);
     }
 
 
