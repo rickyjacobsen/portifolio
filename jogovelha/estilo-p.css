@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (max-height: 500px){
+
+    section{
+        display:  grid;
+        grid-template-columns: auto auto;
+
+       
+    }
+
+    
+    main{
+        width: 252px;
+        height: 84px;
+        display: flex;
+    
+    }
+
+    div{
+        /* border: 1px solid black; */
+        width: 33%;
+        height: 84px;
+        background-size: cover;
+    }
+
+    #resB{
+        width: 40px;
+    }
+
+    #novoJogo{
+       margin: 10px;
+       align-self: baseline;
+       
+    }
+
+    #placar{
+        height: 40px;
+    }
+ 
+
+
+}

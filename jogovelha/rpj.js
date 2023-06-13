@@ -12,6 +12,9 @@ let c333 = document.getElementById('c3')
 
 let resB = document.getElementById('resB')
 let resX = document.getElementById('resX')
+
+
+
 /* identificar se já foi marcado e se três na mesma posição 
 
 1 bolinha
