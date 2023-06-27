@@ -90,7 +90,7 @@ function ganhou(){
         totalB++
         resB.innerHTML = totalB
 
-        setTimeout(novoJogo, 2000);
+        setTimeout(novoJogo, 1000);
     }
     if(b11 == 1 && b22 == 1 && b33 == 1){
         b111.style.backgroundColor = 'white'
@@ -100,7 +100,7 @@ function ganhou(){
         totalB++
         resB.innerHTML = totalB
 
-        setTimeout(novoJogo, 2000);
+        setTimeout(novoJogo, 1000);
     }
     if(c11 == 1 && c22 == 1 && c33 == 1){
         c111.style.backgroundColor = 'white'
@@ -110,7 +110,7 @@ function ganhou(){
         totalB++
         resB.innerHTML = totalB
 
-        setTimeout(novoJogo, 2000);
+        setTimeout(novoJogo, 1000);
     }
     if(a11 == 1 && b11 == 1 && c11 == 1){
         a111.style.backgroundColor = 'white'
@@ -120,7 +120,7 @@ function ganhou(){
         totalB++
         resB.innerHTML = totalB
 
-        setTimeout(novoJogo, 2000);
+        setTimeout(novoJogo, 1000);
     }
     if(a22 == 1 && b22 == 1 && c22 == 1){
         a222.style.backgroundColor = 'white'
@@ -130,7 +130,7 @@ function ganhou(){
         totalB++
         resB.innerHTML = totalB
 
-        setTimeout(novoJogo, 2000);
+        setTimeout(novoJogo, 1000);
     }
     if(a33 == 1 && b33 == 1 && c33 == 1){
         a333.style.backgroundColor = 'white'
@@ -140,7 +140,7 @@ function ganhou(){
         totalB++
         resB.innerHTML = totalB
 
-        setTimeout(novoJogo, 2000);
+        setTimeout(novoJogo, 1000);
     }
     if(a11 == 1 && b22 == 1 && c33 == 1){
         a111.style.backgroundColor = 'white'
@@ -150,7 +150,7 @@ function ganhou(){
         totalB++
         resB.innerHTML = totalB
 
-        setTimeout(novoJogo, 2000);
+        setTimeout(novoJogo, 1000);
     }
     if(a33 == 1 && b22 == 1 && c11 == 1){
         a333.style.backgroundColor = 'white'
@@ -160,7 +160,7 @@ function ganhou(){
         totalB++
         resB.innerHTML = totalB
 
-        setTimeout(novoJogo, 2000);
+        setTimeout(novoJogo, 1000);
     }
 
     
@@ -172,7 +172,7 @@ function ganhou(){
         totalX++
         resX.innerHTML = totalX
 
-        setTimeout(novoJogo, 2000);
+        setTimeout(novoJogo, 1000);
     }
     if(b11 == 2 && b22 == 2 && b33 == 2){
         b111.style.backgroundColor = 'white'
@@ -182,7 +182,7 @@ function ganhou(){
         totalX++
         resX.innerHTML = totalX
 
-        setTimeout(novoJogo, 2000);
+        setTimeout(novoJogo, 1000);
     }
     if(c11 == 2 && c22 == 2 && c33 == 2){
         c111.style.backgroundColor = 'white'
@@ -192,7 +192,7 @@ function ganhou(){
         totalX++
         resX.innerHTML = totalX
 
-        setTimeout(novoJogo, 2000);
+        setTimeout(novoJogo, 1000);
     }
     if(a11 == 2 && b11 == 2 && c11 == 2){
         a111.style.backgroundColor = 'white'
@@ -202,7 +202,7 @@ function ganhou(){
         totalX++
         resX.innerHTML = totalX
 
-        setTimeout(novoJogo, 2000);
+        setTimeout(novoJogo, 1000);
     }
     if(a22 == 2 && b22 == 2 && c22 == 2){
         a222.style.backgroundColor = 'white'
@@ -212,7 +212,7 @@ function ganhou(){
         totalX++
         resX.innerHTML = totalX
 
-        setTimeout(novoJogo, 2000);
+        setTimeout(novoJogo, 1000);
     }
     if(a33 == 2 && b33 == 2 && c33 == 2){
         a333.style.backgroundColor = 'white'
@@ -222,7 +222,7 @@ function ganhou(){
         totalX++
         resX.innerHTML = totalX
 
-        setTimeout(novoJogo, 2000);
+        setTimeout(novoJogo, 1000);
     }
     if(a11 == 2 && b22 == 2 && c33 == 2){
         a111.style.backgroundColor = 'white'
@@ -232,7 +232,7 @@ function ganhou(){
         totalX++
         resX.innerHTML = totalX
 
-        setTimeout(novoJogo, 2000);
+        setTimeout(novoJogo, 1000);
     }
     if(a33 == 2 && b22 == 2 && c11 == 2){
         a333.style.backgroundColor = 'white'
@@ -242,7 +242,7 @@ function ganhou(){
         totalX++
         resX.innerHTML = totalX
 
-        setTimeout(novoJogo, 2000);
+        setTimeout(novoJogo, 1000);
     }
 
 

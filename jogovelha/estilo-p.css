@@ -4,15 +4,17 @@
 
     section{
         display:  grid;
-        grid-template-columns: auto auto;
-
+        grid-template-columns: 1fr 1fr;
+        grid-row: auto auto;
+        justify-items: center;
+        align-items: center;
        
     }
 
     
     main{
-        width: 252px;
-        height: 84px;
+        width: 201px;
+        height: 67px;
         display: flex;
     
     }
@@ -20,22 +22,23 @@
     div{
         /* border: 1px solid black; */
         width: 33%;
-        height: 84px;
+        height: 67px;
         background-size: cover;
     }
 
+    nav{
+        grid-row: span 2; /* Ocupa duas linhas */
+    }
     #resB{
         width: 40px;
     }
 
-    #novoJogo{
-       margin: 10px;
-       align-self: baseline;
-       
-    }
+    
 
     #placar{
-        height: 40px;
+        height: 45px;
+        width: 170px;
+        margin-left: 10px;
     }
  
 
