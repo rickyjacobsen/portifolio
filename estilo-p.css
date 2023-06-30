@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@media screen and (max-height: 500px){
+    section{
+        display: flex;
+        flex-direction: row;
+    }
+
+    div{
+        margin: 10px;
+    }
+}
